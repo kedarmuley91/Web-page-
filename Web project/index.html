@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Styled Webpage</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Custom Font */
+            background-color: #f4f4f9; /* Light Background Color */
+            color: #333; /* Text Color */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Center the content horizontally */
+            align-items: center; /* Center the content vertically */
+            height: 100vh; /* Full viewport height */
+        }
+
+        /* Container for Page Content */
+        .container {
+            background-color: white; /* White background for content */
+            width: 80%; /* Set a width for the container */
+            max-width: 1000px; /* Max width limit */
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+        }
+
+        /* Heading Style */
+        h1 {
+            color: #0077cc; /* Custom Heading Color */
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Paragraph Style */
+        p {
+            font-size: 1.2em;
+            line-height: 1.8; /* Line spacing for better readability */
+            margin-bottom: 20px;
+            text-align: justify; /* Justify the text */
+        }
+
+        /* Image Styling */
+        img {
+            display: block;
+            margin-bottom: 20px; /* Keep some space at the bottom */
+            max-width: 25%; /* Ensure image fits container */
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Link Styling */
+        a {
+            color: #ff6600; /* Orange link color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline; /* Add underline on hover */
+        }
+
+        /* Button Styling */
+        button {
+            background-color: #28a745; /* Green background */
+            color: white; /* White text */
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+
+        button:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Webpage</h1>
+        <p>This is a simple webpage created using HTML, CSS, and JavaScript. The page is styled using custom colors, fonts, and layout adjustments to make it visually appealing.</p>
+        <img src="wp13336557.jpg" alt="Image">
+        <a href="https://example.com">Visit Example Website</a>
+
+        <!-- Button that triggers the JavaScript alert -->
+        <button onclick="showAlert()">Click me</button>
+    </div>
+
+    <!-- JavaScript to show an alert message -->
+    <script>
+        function showAlert() {
+            alert("Hello! This is an alert message triggered by JavaScript.");
+        }
+    </script>
+</body>
+</html>
+
